@@ -43,20 +43,3 @@ patient_id	INT	Patient ID (foreign key)
 doctor_id	INT	Doctor ID (foreign key)
 (Repeat this structure for other tables such as billing, consultations, prescriptions, and staff.)
 
-🚀 How to Run the Project
-
-Clone the Repository:
-bash
-نسخ الكود
-git clone https://github.com/your-username/clinic-management-system.git  
-Setup the Database:
-Create the database:
-sql
-نسخ الكود
-CREATE DATABASE clinic_db;  
-Load the tables using the provided schema.sql file:
-bash
-نسخ الكود
-psql -d clinic_db -f schema.sql  
-Run the Application:
-Launch the application using Python or the preferred programming language used in the project.
